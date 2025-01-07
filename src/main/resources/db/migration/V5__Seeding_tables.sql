@@ -1,5 +1,5 @@
-INSERT INTO customer(firstname, lastname, age) VALUES ('guy', 'tub', 40);
-INSERT INTO customer(firstname, lastname, age) VALUES ('lorraine', 'ipsum', 20);
+INSERT INTO customer(firstname, lastname, age, email) VALUES ('guy', 'tub', 40, 'guy@thub.com');
+INSERT INTO customer(firstname, lastname, age, email) VALUES ('lorraine', 'ipsum', 20, 'lorraine@email.com');
 
 INSERT INTO post(message, customer_id) VALUES ('C''est très bien', 1);
 INSERT INTO post(message, customer_id) VALUES ('mouais pas mal', 1);

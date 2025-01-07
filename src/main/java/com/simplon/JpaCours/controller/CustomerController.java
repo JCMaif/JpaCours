@@ -2,7 +2,6 @@ package com.simplon.JpaCours.controller;
 
 import com.simplon.JpaCours.entity.Customer;
 import com.simplon.JpaCours.service.CustomerService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
