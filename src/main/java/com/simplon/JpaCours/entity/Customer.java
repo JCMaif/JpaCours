@@ -12,7 +12,6 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Customer {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -21,17 +20,4 @@ public class Customer {
     private String firstname;
     @Column(name = "lastname")
     private String lastname;
-    @Column(name = "age")
-    private int age;
-
-    @OneToMany(mappedBy = "customer", cascade = CascadeType.PERSIST)
-    private List<Post> posts;
-
-    @ManyToMany
-    @JoinTable(
-            name = "customer_role",
-            joinColumns = @JoinColumn(name = "customer_id"),
-            inverseJoinColumns = @JoinColumn(name = "role_id")
-    )
-    private List<Role> roles = new ArrayList<>();
 }
