@@ -33,6 +33,6 @@ tasks.named('test') {
 }
 
 flyway {
-    url = 'jdbc:h2:mem:testdb'
+    url = 'jdbc:h2:file:~/mydb'
     user = 'sa'
 }
