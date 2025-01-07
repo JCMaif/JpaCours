@@ -17,6 +17,8 @@ Il vous demandera de vous connecter, vous utiliserez la configuration suivante :
 
 ![alt text](h2console.png)
 
+Vous devriez voir les tables de la base de données sur la gauche, si c'est le cas c'est que la migration automatique a fonctionné, à votre tour de faire les migrations avec Flyway.
+
 ## But de l'exercice
 
 Le but de cet exercice va être de créer vous même les tables nécessaires à l'aide d'une migration Flyway.
